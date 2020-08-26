@@ -28,6 +28,42 @@
   color: #61dafb;
 }
 
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-header{
+  display: flex;
+}
+
+.nav-logo{
+  flex-grow: 1;
+}
+
+.nav-list-menu{
+  flex-grow: 8;
+}
+
+.nav-signup{
+  flex-grow: 1;
+}
+
+.list-menu{
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  margin: 15px auto;
+  width: 90%;
+}
+
+.item-menu{
+  margin-right: 10px;
+  font-size: 20px;
+  text-decoration-line: none;
+  width: 15%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
